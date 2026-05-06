@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #000a1e;
+  --color-primary-container: #002147;
+  --color-secondary: #a63b00;
+  --color-secondary-container: #fc6c29;
+  --color-tertiary-fixed: #78fc9c;
+  
+  --color-surface: #faf9fd;
+  --color-surface-container-low: #f4f3f7;
+  --color-surface-container-high: #e9e7eb;
+  --color-surface-container-highest: #e3e2e6;
+  --color-surface-container-lowest: #ffffff;
+  
+  --color-on-surface: #1a1b1e;
+  --color-on-surface-variant: #44474e;
+  
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 1.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+  }
+}
+
+.suggestion-card-shadow {
+  box-shadow: 0 4px 20px rgba(0, 33, 71, 0.04);
+}
+
+.suggestion-card-shadow:hover {
+  box-shadow: 0 8px 30px rgba(0, 33, 71, 0.08);
+}

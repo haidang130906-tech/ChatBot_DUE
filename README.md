@@ -37,14 +37,23 @@ ChatBot_DUE/
 ├── docker-compose.yml  # Cấu hình triển khai Docker
 └── README.md
 ⚙️ Cài đặt và Sử dụng
+<<<<<<< HEAD
 
 1. Cấu hình môi trường
    Tạo file .env dựa trên file .env.example và điền các API Key cần thiết (như Gemini API Key).
+=======
+1. Cấu hình môi trường
+Tạo file .env dựa trên file .env.example và điền các API Key cần thiết (như Gemini API Key).
+>>>>>>> beee79edaea34ff6514d0001ab126adaefd0ecda
 
 Đảm bảo bạn không đẩy file .env thực tế lên GitHub để bảo mật thông tin.
 
 2. Chạy dự án (Local)
+<<<<<<< HEAD
    Backend:
+=======
+Backend:
+>>>>>>> beee79edaea34ff6514d0001ab126adaefd0ecda
 
 Bash
 cd backend

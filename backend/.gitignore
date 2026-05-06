@@ -1,0 +1,12 @@
+# Bỏ qua môi trường ảo (Thủ phạm chính)
+backend/venv/
+venv/
+env/
+
+# Bỏ qua các file dữ liệu nặng
+backend/data/*.xlsx
+backend/data/*.csv
+
+# Các file tạm của Python
+__pycache__/
+*.pyc
